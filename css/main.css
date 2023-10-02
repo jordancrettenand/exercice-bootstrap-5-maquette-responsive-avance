@@ -38,3 +38,26 @@ video {
   block-size: auto;
   vertical-align: middle;
 }
+
+/* mon code */
+
+.special {
+  margin: 16px 24px 16px 24px;
+}
+
+/* bootstrap ->  */
+
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+
+  padding-bottom: 12px;
+
+  background-color: rgba(255, 0, 0, 0.15);
+
+  border: 1px solid rgba(102, 0, 255, 0.2);
+}
