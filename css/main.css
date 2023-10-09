@@ -26,6 +26,9 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
 }
 
 a {
@@ -42,18 +45,42 @@ video {
 /* mon code */
 
 header {
-  background: orange;
+  background-image: url(../img/546eb7ebabcc6a5d2481079e8bac9f8a.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.menu {
+  padding: 30px 45px 30px 45px;
+  color: white;
+}
+.titrage {
+  padding: 200px;
+  text-align: center;
+  color: white;
 }
 
 main {
   background: pink;
 }
 
+.bloc-principale {
+  padding: 45px;
+}
+
+.bloc-img {
+  padding: 50px 30px 50px 30px;
+}
+
+.bloc-img-main {
+  padding: 25px 15px 25px 15px;
+}
+
 footer {
   background: red;
 }
 
-/* bootstrap ->  */
+/* bootstrap -> 
 
 .row + .row {
   margin-top: 16px;
@@ -68,8 +95,4 @@ footer {
   background-color: rgba(255, 0, 0, 0.15);
 
   border: 1px solid rgba(102, 0, 255, 0.2);
-}
-
-header {
-  background: orange;
-}
+} */
